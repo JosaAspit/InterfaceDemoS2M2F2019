@@ -30,6 +30,7 @@ namespace InterfaceGameDemo
                 Console.WriteLine(actionResult.output);
             }
 
+            Console.WriteLine("The Game is now finished, postgame is being shown:");
             game.PostGame();
         }
     }
