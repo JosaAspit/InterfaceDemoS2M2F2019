@@ -6,7 +6,7 @@ namespace InterfaceGameDemo
     {
         static void Main(string[] args)
         {
-            IGame game = new JosaGame();
+            IGame game = new WillGame();
 
             game.Start();
 
